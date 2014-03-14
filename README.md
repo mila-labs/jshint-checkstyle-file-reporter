@@ -2,6 +2,11 @@
 
 Writes checkstyle output to a file. This can be used to report JSHint results to **Jenkins**.
 
+## Installation
+```bash
+npm install --save-dev jshint-checkstyle-file-reporter
+```
+
 ## Usage
 
 ### Standard JSHint cli

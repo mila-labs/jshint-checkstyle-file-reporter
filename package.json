@@ -1,0 +1,12 @@
+{
+  "name": "jshint-checkstyle-file-reporter",
+  "version": "0.0.1",
+  "description": "JSHint checkstyle reporter which outputs to a file",
+  "main": "index.js",
+  "keywords": ["jshint", "checkstyle", "jenkins"],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Weibel <michael@mila.com>",
+  "license": "MIT"
+}

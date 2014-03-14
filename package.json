@@ -7,6 +7,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mila-labs/jshint-checkstyle-file-reporter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mila-labs/jshint-checkstyle-file-reporter/issues"
+  },
+  "homepage": "https://github.com/mila-labs/jshint-checkstyle-file-reporter",
   "author": "Michael Weibel <michael@mila.com>",
   "license": "MIT"
 }

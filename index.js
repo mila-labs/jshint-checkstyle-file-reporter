@@ -79,7 +79,14 @@ module.exports =
 
     out.push("</checkstyle>");
 
-    var filename = process.env.JSHINT_CHECKSTYLE_FILE || "checkstyle.xml";
+    var dir = './checkstyles';
+    if (!fs.existsSync(dir)){
+      fs.mkdirSync(dir);
+    }
+
+    var date = new Date();
+    var timestamp = date.getTime();
+    var filename = "checkstyles/checkstyle-" + timestamp + ".xml";
     fs.writeFileSync(filename, out.join('\n'));
 
     console.log("Output written to " + filename);
